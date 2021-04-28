@@ -11,7 +11,7 @@ Hi there!
 
 Thanks for helping out getting rid of the bugs 🕷
 
-**First thing, make sure your bug is not already reported. I don't you to waste your time 😇**
+**First thing, make sure your bug is not already reported. I don't want you to waste your time 😇**
 
 Secondly, if possible please include a screenshot or a video, that's always nice.
 
