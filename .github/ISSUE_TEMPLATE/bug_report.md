@@ -18,3 +18,5 @@ Secondly, if possible please include a screenshot or a video, that's always nice
 Lastly, include the build number you found the bug in. You can see it in the top right corner of the game.
 
 Thanks again!
+
+**This message should be deleted before submitting the bug.**
