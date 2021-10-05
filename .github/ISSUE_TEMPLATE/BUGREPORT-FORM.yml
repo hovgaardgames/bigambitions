@@ -17,8 +17,9 @@ body:
     id: bug-description
     attributes:
       label: Bug description
-      description: Please tell us as detailed as possible what you did and what went wrong. If possible, please also provide screenshots/videos and a savegame.
-                   When adding a savegame file, you have to change the file extension from .json to .txt
+      description: |
+        Please tell us as detailed as possible what you did and what went wrong. If possible, please also provide screenshots/videos and a savegame.
+        When adding a savegame file, you have to change the file extension from .json to .txt
       placeholder: What happened? What did you expect?
     validations:
       required: true
