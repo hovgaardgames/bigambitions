@@ -30,7 +30,7 @@ body:
     id: bug-savegame
     attributes:
       label: Savegame file
-      description: Savegames are located at `C:\Users\<Username>\AppData\LocalLow\Hovgaard Games\Big Ambitions`
+      description: Savegames are located in `%USERPROFILE%\AppData\LocalLow\Hovgaard Games\Big Ambitions` in a separate folder for every alpha version
       placeholder: Please attach your savegame file here. You have to change the file extension from .json to .txt in order to attach it.
   - type: textarea
     id: bug-screenshots
