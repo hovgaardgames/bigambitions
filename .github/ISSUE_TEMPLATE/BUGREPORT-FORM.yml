@@ -1,0 +1,28 @@
+name: Bug Report
+description: Create a report to help us fix a bug 
+title: ''
+labels: ''
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: build-number
+    attributes:
+      label: Build number
+      description: Please provide the build number of your installation as shown at the top right of the screen.
+      placeholder: e.g. 215
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: Please tell us as detailed as possible what you did and what went wrong. If possible, please also provide screenshots/videos and a savegame.
+                   When adding a savegame file, you have to change the file extension from .json to .txt
+      placeholder: What happened? What did you expect?
+    validation:
+      required: true
+      
