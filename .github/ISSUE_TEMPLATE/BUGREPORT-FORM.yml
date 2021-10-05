@@ -17,18 +17,23 @@ body:
     id: bug-description
     attributes:
       label: Bug description
-      description: |
-        Please tell us as detailed as possible what you did and what went wrong. If possible, please also provide screenshots/videos and a savegame.
-        When adding a savegame file, you have to change the file extension from .json to .txt
-      value: |
-        Description:
-        
-        Steps to reproduce the bug:
-        
-        Savegame, if available (drag&drop or copy&paste it here):
-        
-        Screenshots (drag&drop or copy&paste it here):
+      description: Please tell us as detailed as possible what you did and what went wrong.
       placeholder: What happened? What did you expect?
     validations:
       required: true
-      
+  - type: textarea
+    id: bug-reproduce
+    attributes:
+      label: Steps to reproduce the bug
+      placeholder: Please let us know what we have to do to reproduce this bug
+  - type: textarea
+    id: bug-savegame
+    attributes:
+      label: Savegame file
+      description: Savegames are located at `C:\Users\<Username>\AppData\LocalLow\Hovgaard Games\Big Ambitions`
+      placeholder: Please attach your savegame file here. You have to change the file extension from .json to .txt in order to attach it.
+  - type: textarea
+    id: bug-screenshots
+    attributes:
+      label: Screenshots or videos
+      placeholder: Please attach any screenshots or videos of the issue if available
