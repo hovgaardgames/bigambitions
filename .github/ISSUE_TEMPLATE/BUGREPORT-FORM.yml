@@ -1,10 +1,11 @@
-name: New Bug Report
+name: Bug Report
 description: Create a report to help us fix a bug 
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        Please make sure the bug isn't reported already to avoid double work.
   - type: input
     id: build-number
     attributes:
