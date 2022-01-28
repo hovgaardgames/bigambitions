@@ -7,7 +7,7 @@ body:
         Thanks for taking the time to fill out this bug report!
         Please make sure the bug isn't reported already to avoid double work.
         
-        ***Please fill out the bug report in English only!*** 🇬🇧
+        ***Please submit the bug report in English only!*** 🇬🇧
   - type: input
     id: build-number
     attributes:
